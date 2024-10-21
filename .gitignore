@@ -1,0 +1,86 @@
+# Ignore Visual Studio temporary files, build results, and
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files and logs
+*.log
+*.tlog
+*.ide
+*.ilk
+*.pdb
+*.vspxproj
+*.vspscc
+
+# Ignore any non-relevant environment-generated files
+.vscode/
+.vs/
+.idea/
+
+# Ignore compiled output
+bin/
+obj/
+
+# Ignore build results
+*.dll
+*.exe
+*.appx
+*.appxupload
+*.pkg
+*.map
+*.msix
+*.msixupload
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Dependency manager directories
+node_modules/
+
+# Ignore Rider files
+.idea/
+
+# ASP.NET Core specifics
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Code
+.vscode/*
+
+# Database
+*.mdf
+*.ldf
+
+# Ignore by platform
+.DS_Store
+Thumbs.db
+
+# Build folders
+build/
+Build/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Backup and temporary files
+*.bak
+*.swp
+*.tmp
+*.log
+
+# JetBrains Rider
+.idea/
+*.sln.iml
