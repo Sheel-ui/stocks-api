@@ -9,6 +9,7 @@ using api.Dtos.Stock;
 using api.Mappers;
 using api.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 namespace api.Controllers
 {
     [Route("api/stock")]
@@ -23,6 +24,7 @@ namespace api.Controllers
             _stockRepo = stockRepo;
         }
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
